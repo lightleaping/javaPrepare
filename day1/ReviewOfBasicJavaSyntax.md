@@ -159,6 +159,13 @@ for (int i = 0; i < arr.length; i++) {
 }
 ```
 
+```java
+int[] numbers = {1, 2, 3, 4, 5};
+for (int num : numbers) {
+    System.out.println(num);
+}
+```
+
 - 2차원 배열
 ```java
 int[][] matrix = {{1, 2}, {3, 4}, {5, 6}};
