@@ -108,10 +108,10 @@ public class Main {
 
 ## 요약
 
-클래스(Class) 객체를 생성하는 설계도	class Car {}
-객체(Object) 클래스에서 만들어진 실체	Car myCar = new Car();
-메서드(Method) 특정 기능을 수행하는 코드 블록	int add(int a, int b) { return a + b; }
-static 메서드	객체 생성 없이 호출 가능	public static int square(int num) {}
+- 클래스(Class) 객체를 생성하는 설계도	class Car {}
+- 객체(Object) 클래스에서 만들어진 실체	Car myCar = new Car();
+- 메서드(Method) 특정 기능을 수행하는 코드 블록	int add(int a, int b) { return a + b; }
+- static 메서드	객체 생성 없이 호출 가능	public static int square(int num) {}
 
 
 
