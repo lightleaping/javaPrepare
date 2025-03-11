@@ -14,3 +14,32 @@ git pull origin main
 📌 4) 새로운 변경 사항 푸시 (git push)
 git push origin main
 ✅ 변경된 파일을 GitHub에 업로드
+
+
+🚀 해결 방법: GitHub 최신 상태 가져오기 후 푸시
+
+✅ 1. 원격 저장소의 변경 사항을 가져오기 (git pull origin main)
+터미널(혹은 Git Bash)에서 다음 명령어를 입력하세요.
+
+git pull origin main --rebase
+origin main → GitHub에서 main 브랜치의 최신 코드를 가져옴
+--rebase 옵션 → 현재 로컬 커밋을 원격 변경 사항 위로 재배치하여 깔끔하게 유지
+
+✅ 2. 충돌이 없다면 다시 git push 실행
+git push origin main
+이제 정상적으로 GitHub에 업로드될 거예요! 🎉
+
+🚨 만약 충돌(conflict)이 발생하면?
+
+터미널에서 Git이 충돌된 파일을 알려줄 거예요.
+충돌이 난 파일을 열어 직접 수정하세요.
+
+수정 후 다시 커밋:
+
+git add .
+git commit -m "Fix merge conflict"
+그리고 다시 push:
+
+git push origin main
+
+
